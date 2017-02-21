@@ -31,7 +31,7 @@ tmux resize-pane -D
 tmux resize-pane -D
 tmux resize-pane -D
 
-tmux neww -n 'ubuntu' ''
+tmux neww -n 'ubuntu'
 tmux split-window -v
 tmux send-keys "ssh twixter@10.0.2.4" C-m
 tmux split-window -v
